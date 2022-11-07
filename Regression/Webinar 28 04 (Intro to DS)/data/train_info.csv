@@ -1,0 +1,81 @@
+,Feature,NaN_count,number_of_unique_elements,type,column_description
+0,MSSubClass,0,15,object,Identifies the type of dwelling involved in the sale
+1,MSZoning,0,5,object,Identifies the general zoning classification of the sale
+2,LotFrontage,0,110,float64,Linear feet of street connected to property
+3,LotArea,0,1073,int64,Lot size in square feet
+4,Street,0,2,object,Type of road access to property
+5,Alley,0,3,object,Type of alley access to property
+6,LotShape,0,4,object,General shape of property
+7,LandContour,0,4,object,Flatness of the property
+8,Utilities,0,2,object,Type of utilities available
+9,LotConfig,0,5,object,Lot configuration
+10,LandSlope,0,3,object,Slope of property
+11,Neighborhood,0,25,object,Physical locations within Ames city limits
+12,Condition1,0,9,object,Proximity to various conditions
+13,Condition2,0,8,object,Proximity to various conditions (if more than one is present)
+14,BldgType,0,5,object,Type of dwelling
+15,HouseStyle,0,8,object,Style of dwelling
+16,OverallQual,0,10,object,Rates the overall material and finish of the house
+17,OverallCond,0,9,object,Rates the overall condition of the house
+18,YearBuilt,0,112,int64,Original construction date
+19,YearRemodAdd,0,61,int64,Remodel date (same as construction date if no remodeling or additions)
+20,RoofStyle,0,6,object,Type of roof
+21,RoofMatl,0,8,object,Roof material
+22,Exterior1st,0,15,object,Exterior covering on house
+23,Exterior2nd,0,16,object,Exterior covering on house (if more than one material)
+24,MasVnrType,0,4,object,Masonry veneer type
+25,MasVnrArea,0,327,float64,Masonry veneer area in square feet
+26,ExterQual,0,4,object,Evaluates the quality of the material on the exterior 
+27,ExterCond,0,5,object,Evaluates the present condition of the material on the exterior
+28,Foundation,0,6,object,Type of foundation
+29,BsmtQual,0,5,object,Evaluates the height of the basement
+30,BsmtCond,0,5,object,Evaluates the general condition of the basement
+31,BsmtExposure,0,5,object,Refers to walkout or garden level walls
+32,BsmtFinType1,0,7,object,Rating of basement finished area
+33,BsmtFinSF1,0,637,int64,Type 1 finished square feet
+34,BsmtFinType2,0,7,object,Rating of basement finished area (if multiple types)
+35,BsmtFinSF2,0,144,int64,Type 2 finished square feet
+36,BsmtUnfSF,0,780,int64,Unfinished square feet of basement area
+37,TotalBsmtSF,0,721,int64,Total square feet of basement area
+38,Heating,0,6,object,Type of heating
+39,HeatingQC,0,5,object,Heating quality and condition
+40,CentralAir,0,2,object,Central air conditioning
+41,Electrical,0,5,object,Electrical system
+42,1stFlrSF,0,753,int64,First Floor square feet
+43,2ndFlrSF,0,417,int64,Second floor square feet
+44,LowQualFinSF,0,24,int64,Low quality finished square feet (all floors)
+45,GrLivArea,0,861,int64,Above grade (ground) living area square feet
+46,BsmtFullBath,0,4,int64,Basement full bathrooms
+47,BsmtHalfBath,0,3,int64,Basement half bathrooms
+48,FullBath,0,4,int64,Full bathrooms above grade
+49,HalfBath,0,3,int64,Half baths above grade
+50,BedroomAbvGr,0,8,int64,Bedrooms above grade (does NOT include basement bedrooms)
+51,KitchenAbvGr,0,4,int64,Kitchens above grade
+52,KitchenQual,0,4,object,Kitchen quality
+53,TotRmsAbvGrd,0,12,int64,Total rooms above grade (does not include bathrooms)
+54,Functional,0,7,object,Home functionality (Assume typical unless deductions are warranted)
+55,Fireplaces,0,4,int64,Number of fireplaces
+56,FireplaceQu,0,6,object,Fireplace quality
+57,GarageType,0,7,object,Garage location
+58,GarageYrBlt,0,98,float64,Year garage was built
+59,GarageFinish,0,4,object,Interior finish of the garage
+60,GarageCars,0,5,int64,Size of garage in car capacity
+61,GarageArea,0,441,int64,Size of garage in square feet
+62,GarageQual,0,6,object,Garage quality
+63,GarageCond,0,6,object,Garage condition
+64,PavedDrive,0,3,object,Paved driveway
+65,WoodDeckSF,0,274,int64,Wood deck area in square feet
+66,OpenPorchSF,0,202,int64,Open porch area in square feet
+67,EnclosedPorch,0,120,int64,Enclosed porch area in square feet
+68,3SsnPorch,0,20,int64,Three season porch area in square feet
+69,ScreenPorch,0,76,int64,Screen porch area in square feet
+70,PoolArea,0,8,int64,Pool area in square feet
+71,PoolQC,0,4,object,Pool quality
+72,Fence,0,5,object,Fence quality
+73,MiscFeature,0,5,object,Miscellaneous feature not covered in other categories
+74,MiscVal,0,21,int64,$Value of miscellaneous feature
+75,MoSold,0,12,int64,Month Sold (MM)
+76,YrSold,0,5,int64,Year Sold (YYYY)
+77,SaleType,0,9,object,Type of sale
+78,SaleCondition,0,6,object,Condition of sale
+79,SalePrice,0,663,int64,
